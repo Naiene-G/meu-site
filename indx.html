@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style.css">\
+    <style>
+.form {
+    border: 1px solid rgb(92, 156, 209);
+    width: 350px;
+    height: 200px;
+    padding: 5px;
+    background-color: #efefef;
+    border-radius: 10px;
+    display: grid;
+    
+
+}
+.f {
+    align-items: center;
+}
+#a, #b {
+    height: 25px;
+    border-bottom: 1px solid hwb(0 69% 7%) !important;
+    border: none;
+    outline: none;
+    background-color: #efefef;
+    padding: 5px;
+}
+.form > div {
+    padding: 5px;
+}
+#a:hover, #b:hover {
+    background-color: aliceblue;
+}
+#a:focus, #b:focus {
+    border: 1px solid hwb(0 69% 7%);
+    border-radius: 10px;
+}
+textarea{
+    height: 80px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.bd {
+    display: flex;
+}
+@media (min-width: 601px) {
+    .form {
+        width: 100%;
+        padding: 5px;
+    }
+    
+}
+    </style>
+</head>
+<body class="bd">
+    <form action="" class="f">
+    <div class="form">
+        <div>
+            <label for="">Nome:</label>
+            <input type="text"  id="a">
+        </div>
+        <div>
+            <label for="">Email:</label>
+            <input type="email" id="b">
+        </div>
+        <div>
+            <textarea name="" id="tx"></textarea>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
